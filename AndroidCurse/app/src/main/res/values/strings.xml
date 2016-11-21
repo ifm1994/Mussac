@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Musacc</string>
+    <string name="textoCargando"> Loading  . . .</string>
+    <!--Español-->
+    <string name="textoActividad1Español">Bienvenido al museo Caja Granada</string>
+    <string name="DescripcionImagenFondoEspañol">Imagen de la fachada del museo</string>
+    <string name="texto2Actividad1Español">Pulse para comenzar</string>
+    <string name="textoSelIdiEspañol">Seleccione su idioma</string>
+    <string name="textoSelMedioEspañol">Seleccione su medio preferido</string>
+    <string name="selecAudioEspañol">Audio</string>
+    <string name="selecVideoEspañol">Video</string>
+    <string name="selecTextoVideoEspañol">Texto-Video</string>
+    <string name="textoSelTipoVisitaEspañol">Seleccione tipo de visita</string>
+    <string name="selecVisGuiadaEspañol">Visita guiada</string>
+    <string name="selecVisLibreEspañol">Visita libre</string>
+    <string name="selecIrPuntoEspañol">Ir a punto de interes</string>
+    <string name="textoSelSalaEspañol">Elegir entrada Sala</string>
+    <string name="sala1Español">Entrada Sala 1</string>
+    <string name="sala2Español">Entrada Sala 2</string>
+    <string name="sala3Español">Entrada Sala 3</string>
+    <string name="sala4Español">Entrada Sala 4</string>
+    <string name="textoSelecNumeroEspañol">Elegir números</string>
+
+    <!--Ingles-->
+    <string name="textoActividad1Ingles">Welcome to the museum Caja Granada</string>
+    <string name="DescripcionImagenFondoIngles"> Image of the facade of the museum </string>
+    <string name="texto2Actividad1Ingles">Press to start</string>
+    <string name="textoSelIdiIngles">Select your lenguage</string>
+    <string name="textoSelMedioIngles">Select your viewing medium</string>
+    <string name="selecAudioIngles">Audio</string>
+    <string name="selecVideoIngles">Video</string>
+    <string name="selecTextoVideoIngles">Text and video</string>
+
+    <string name="textoSelSalaIngles">Choose entry room</string>
+    <string name="sala1Ingles">Room entry 1</string>
+    <string name="sala2Ingles">Room entry 2</string>
+    <string name="sala3Ingles">Room entry 3</string>
+    <string name="sala4Ingles">Room entry 4</string>
+
+    <!--Francés-->
+    <!--Árabe-->
+    <!--Italiano-->
+    <!--Alemán-->
+    <string name="logoMussac">Logo mussac</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+</resources>
