@@ -22,7 +22,7 @@
         android:layout_alignParentStart="true"
         android:id="@+id/botonAtras" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num7"
         android:id="@+id/checkNum7"
         android:textColor="@color/blanco"
@@ -38,7 +38,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num8"
         android:id="@+id/checkNum8"
         android:textColor="@color/blanco"
@@ -54,7 +54,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num5"
         android:id="@+id/checkNum5"
         android:textColor="@color/blanco"
@@ -70,7 +70,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num4"
         android:id="@+id/checkNum4"
         android:textColor="@color/blanco"
@@ -87,7 +87,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num6"
         android:id="@+id/checkNum6"
         android:textColor="@color/blanco"
@@ -104,7 +104,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num2"
         android:id="@+id/checkNum2"
         android:textColor="@color/blanco"
@@ -121,7 +121,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num3"
         android:id="@+id/checkNum3"
         android:textColor="@color/blanco"
@@ -138,7 +138,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <CheckBox
+    <RadioButton
         android:text="@string/num1"
         android:id="@+id/checkNum1"
         android:textColor="@color/blanco"

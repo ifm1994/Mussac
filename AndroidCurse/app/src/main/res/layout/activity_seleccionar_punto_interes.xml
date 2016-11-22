@@ -8,6 +8,79 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/principal"
     tools:context="com.example.sakrofdez.androidcurse.SeleccionarPuntoInteres">
 
+    <TextView
+        android:text="@string/selectpuntOrigenEspañol"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/blanco"
+        android:id="@+id/textoElegirOrigen"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:typeface="sans"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ir_atras"
+        android:scaleType="centerCrop"
+        android:id="@+id/botonAtras"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/salidaEmergencia"
+        android:layout_width="match_parent"
+        android:textColor="@color/blanco"
+        android:background="@color/colorFondoTexto"
+        android:id="@+id/botonSalEme"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/estradaSalidaEspañol"
+        android:layout_width="match_parent"
+        android:textColor="@color/blanco"
+        android:background="@color/colorFondoTexto"
+        android:id="@+id/botonEntraSal"
+        android:layout_height="100dp"
+        android:layout_above="@+id/botonSalEme"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/bañosEspañol"
+        android:layout_width="match_parent"
+        android:textColor="@color/blanco"
+        android:background="@color/colorFondoTexto"
+        android:id="@+id/botonBaños"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/botonEntraSal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/entradaSalaEspañol"
+        android:textColor="@color/blanco"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorFondoTexto"
+        android:layout_width="match_parent"
+        android:id="@+id/botonEntradaSala"
+        android:layout_height="100dp"
+        android:layout_above="@+id/botonBaños"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

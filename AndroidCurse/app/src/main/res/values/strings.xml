@@ -20,6 +20,11 @@
     <string name="sala3Español">Entrada Sala 3</string>
     <string name="sala4Español">Entrada Sala 4</string>
     <string name="textoSelecNumeroEspañol">Elegir números</string>
+    <string name="selectpuntOrigenEspañol">Seleccione origen</string>
+    <string name="entradaSalaEspañol">Entrada sala</string>
+    <string name="bañosEspañol">Baños</string>
+    <string name="estradaSalidaEspañol">Entrada-Salida del museo</string>
+    <string name="salidaEmergencia">Salidas de Emergencia</string>
 
     <!--Ingles-->
     <string name="textoActividad1Ingles">Welcome to the museum Caja Granada</string>
