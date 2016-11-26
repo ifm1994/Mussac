@@ -2,50 +2,168 @@
     <string name="app_name">Musacc</string>
     <string name="textoCargando"> Loading  . . .</string>
     <!--Español-->
-    <string name="textoActividad1Español">Bienvenido al museo Caja Granada</string>
+    <string name="tituloActividad1Español">Bienvenido al museo Caja Granada</string>
     <string name="DescripcionImagenFondoEspañol">Imagen de la fachada del museo</string>
-    <string name="texto2Actividad1Español">Pulse para comenzar</string>
-    <string name="textoSelIdiEspañol">Seleccione su idioma</string>
-    <string name="textoSelMedioEspañol">Seleccione su medio preferido</string>
+    <string name="titulo2Actividad1Español">Pulse para comenzar</string>
+    <string name="tituloSelIdiEspañol">Seleccione su idioma</string>
+    <string name="tituloSelMedioEspañol">Seleccione su medio preferido</string>
     <string name="selecAudioEspañol">Audio</string>
     <string name="selecVideoEspañol">Video</string>
     <string name="selecTextoVideoEspañol">Texto-Video</string>
-    <string name="textoSelTipoVisitaEspañol">Seleccione tipo de visita</string>
+    <string name="tituloSelTipoVisitaEspañol">Seleccione tipo de visita</string>
     <string name="selecVisGuiadaEspañol">Visita guiada</string>
     <string name="selecVisLibreEspañol">Visita libre</string>
     <string name="selecIrPuntoEspañol">Ir a punto de interes</string>
-    <string name="textoSelSalaEspañol">Elegir entrada Sala</string>
-    <string name="sala1Español">Entrada Sala 1</string>
-    <string name="sala2Español">Entrada Sala 2</string>
-    <string name="sala3Español">Entrada Sala 3</string>
-    <string name="sala4Español">Entrada Sala 4</string>
-    <string name="textoSelecNumeroEspañol">Elegir números</string>
-    <string name="selectpuntOrigenEspañol">Seleccione origen</string>
-    <string name="entradaSalaEspañol">Entrada sala</string>
-    <string name="bañosEspañol">Baños</string>
-    <string name="estradaSalidaEspañol">Entrada-Salida del museo</string>
-    <string name="salidaEmergencia">Salidas de Emergencia</string>
+    <string name="tituloSelSalaEspañol">Elegir entrada Sala</string>
+    <string name="selecSala1Español">Entrada Sala 1</string>
+    <string name="selecSala2Español">Entrada Sala 2</string>
+    <string name="selecSala3Español">Entrada Sala 3</string>
+    <string name="selecSala4Español">Entrada Sala 4</string>
+    <string name="tituloSelecNumeroEspañol">Elegir número</string>
+    <string name="selecPuntoOrigenEspañol">Seleccione origen</string>
+    <string name="selecPuntoDestinoEspañol">Seleccione destino</string>
+    <string name="selecEntradaSalaEspañol">Entrada sala</string>
+    <string name="selecBañosEspañol">Baños</string>
+    <string name="selecEntradaSalidaEspañol">Entrada-Salida del museo</string>
+    <string name="selecSalidaEmergenciaEspañol">Salidas de Emergencia</string>
 
     <!--Ingles-->
-    <string name="textoActividad1Ingles">Welcome to the museum Caja Granada</string>
-    <string name="DescripcionImagenFondoIngles"> Image of the facade of the museum </string>
-    <string name="texto2Actividad1Ingles">Press to start</string>
-    <string name="textoSelIdiIngles">Select your lenguage</string>
-    <string name="textoSelMedioIngles">Select your viewing medium</string>
+    <string name="tituloActividad1Ingles">Welcome to the museum Caja Granada</string>
+    <string name="DescripcionImagenFondoIngles">Image of the facade of the museum</string>
+    <string name="titulo2Actividad1Ingles">Press to start</string>
+    <string name="tituloSelIdiIngles">Select your language</string>
+    <string name="tituloSelMedioIngles">Select your viewing medium</string>
     <string name="selecAudioIngles">Audio</string>
     <string name="selecVideoIngles">Video</string>
-    <string name="selecTextoVideoIngles">Text and video</string>
+    <string name="selecTextoVideoIngles">Text-Video</string>
+    <string name="tituloSelTipoVisitaIngles">Select type of visit</string>
+    <string name="selecVisGuiadaIngles">Guided visit</string>
+    <string name="selecVisLibreIngles">Free roam visit</string>
+    <string name="selecIrPuntoIngles">Go to point of interest</string>
+    <string name="tituloSelSalaIngles">Choose entry room</string>
+    <string name="selecSala1Ingles">Room entry 1</string>
+    <string name="selecSala2Ingles">Room entry 2</string>
+    <string name="selecSala3Ingles">Room entry 3</string>
+    <string name="selecSala4Ingles">Room entry 4</string>
+    <string name="tituloSelecNumeroIngles">Choose number</string>
+    <string name="selecPuntoOrigenIngles">Select origin</string>
+    <string name="selecPuntoDestinoIngles">Select destination</string>
+    <string name="selecEntradaSalaIngles">Room entry</string>
+    <string name="selecBañosIngles">Toilet</string>
+    <string name="selecEntradaSalidaIngles">Museum entry-exit</string>
+    <string name="selecSalidaEmergenciaIngles">Emergency exit</string>
 
-    <string name="textoSelSalaIngles">Choose entry room</string>
-    <string name="sala1Ingles">Room entry 1</string>
-    <string name="sala2Ingles">Room entry 2</string>
-    <string name="sala3Ingles">Room entry 3</string>
-    <string name="sala4Ingles">Room entry 4</string>
+
 
     <!--Francés-->
+    <string name="tituloActividad1Frances">Bienvenue au musée de Caja Granada</string>
+    <string name="DescripcionImagenFondoFrances">Image de la façade du musée</string>
+    <string name="titulo2Actividad1Frances">Appuyez sur pour démarrer</string>
+    <string name="tituloSelIdiFrances">Choisissez votre langue</string>
+    <string name="tituloSelMedioFrances">Sélectionnez votre support préféré</string>
+    <string name="selecAudioFrances">Acoustique</string>
+    <string name="selecVideoFrances">Vidéo</string>
+    <string name="selecTextoVideoFrances">Texte-vidéo</string>
+    <string name="tituloSelTipoVisitaFrances">Sélectionnez le type de visite</string>
+    <string name="selecVisGuiadaFrances">Visite guidée</string>
+    <string name="selecVisLibreFrances">Visite libre</string>
+    <string name="selecIrPuntoFrances">Aller au point d\’intérêt</string>
+    <string name="tituloSelSalaFrances">Choisissez l\’entrée chambre</string>
+    <string name="selecSala1Frances">Salle d’entrée 1</string>
+    <string name="selecSala2Frances">Salle d’entrée 2</string>
+    <string name="selecSala3Frances">Salle d’entrée 3</string>
+    <string name="selecSala4Frances">Salle d’entrée 4</string>
+    <string name="tituloSelecNumeroFrances">Choisir le nombre</string>
+    <string name="selecPuntoOrigenFrances">Sélectionnez la source</string>
+    <string name="selecPuntoDestinoFrances">Sélectionnez la destination</string>
+    <string name="selecEntradaSalaFrances">Hall d\’entrée</string>
+    <string name="selecBañosFrances">Toilettes</string>
+    <string name="selecEntradaSalidaFrances">Musée des entrées-sorties</string>
+    <string name="selecSalidaEmergenciaFrances">Sorties de secourst</string>
+
+
     <!--Árabe-->
+    <string name="tituloActividad1Arabe">مرحبا بكم في متحف كاجا غرناطة</string>
+    <string name="DescripcionImagenFondoArabe">صورة من واجهة المتحف</string>
+    <string name="titulo2Actividad1Arabe">اضغط على لبدء</string>
+    <string name="tituloSelIdiArabe">اختر لغتك</string>
+    <string name="tituloSelMedioArabe">اختر المتوسطة عرض الخاص بك</string>
+    <string name="selecAudioArabe">سمعي</string>
+    <string name="selecVideoArabe">فيديو</string>
+    <string name="selecTextoVideoArabe">النص فيديو</string>
+    <string name="tituloSelTipoVisitaArabe">حدد نوع الزيارة</string>
+    <string name="selecVisGuiadaArabe">زيارة بصحبة مرشد</string>
+    <string name="selecVisLibreArabe">زيارة تتجول حرة</string>
+    <string name="selecIrPuntoArabe">الذهاب إلى نقطة اهتمام</string>
+    <string name="tituloSelSalaArabe">اختيار غرفة دخول</string>
+    <string name="selecSala1Arabe">دخول الغرفة 1</string>
+    <string name="selecSala2Arabe">دخول غرفة 2</string>
+    <string name="selecSala3Arabe">دخول غرفة 3</string>
+    <string name="selecSala4Arabe">دخول غرفة 4</string>
+    <string name="tituloSelecNumeroArabe">اختيار عدد</string>
+    <string name="selecPuntoOrigenArabe">حدد الأصل</string>
+    <string name="selecPuntoDestinoArabe">تحديد وجهة</string>
+    <string name="selecEntradaSalaArabe">دخول الغرفة</string>
+    <string name="selecBañosArabe">مرحاض</string>
+    <string name="selecEntradaSalidaArabe">متحف الدخول والخروج</string>
+    <string name="selecSalidaEmergenciaArabe">مخرج الطوارئ</string>
+
+
     <!--Italiano-->
+    <string name="tituloActividad1Italiano">Benvenuti al museo Caja Granada</string>
+    <string name="DescripcionImagenFondoItaliano">Immagine della facciata del museo</string>
+    <string name="titulo2Actividad1Italiano">Premere per avviare</string>
+    <string name="tituloSelIdiItaliano">Seleziona il tuo lenguage</string>
+    <string name="tituloSelMedioItaliano">Seleziona il tuo mezzo di visualizzazione</string>
+    <string name="selecAudioItaliano">Audio</string>
+    <string name="selecVideoItaliano">Video</string>
+    <string name="selecTextoVideoItaliano">Text-Video</string>
+    <string name="tituloSelTipoVisitaItaliano">Selezionare il tipo di visita</string>
+    <string name="selecVisGuiadaItaliano">Visita guidata</string>
+    <string name="selecVisLibreItaliano">Visita vagano liberi</string>
+    <string name="selecIrPuntoItaliano">Vai a punto di interesse</string>
+    <string name="tituloSelSalaItaliano">Scegli room entry</string>
+    <string name="selecSala1Italiano">Ingresso Camera 1</string>
+    <string name="selecSala2Italiano">Ingresso Camera 2</string>
+    <string name="selecSala3Italiano">Ingresso Camera 3</string>
+    <string name="selecSala4Italiano">Ingresso Camera 4</string>
+    <string name="tituloSelecNumeroItaliano">Scegli number</string>
+    <string name="selecPuntoOrigenItaliano">Seleziona origine</string>
+    <string name="selecPuntoDestinoItaliano">seleziona la destinazione</string>
+    <string name="selecEntradaSalaItaliano">Entrata in camera</string>
+    <string name="selecBañosItaliano">Toilette</string>
+    <string name="selecEntradaSalidaItaliano">Museo di entrata-uscita</string>
+    <string name="selecSalidaEmergenciaItaliano">Uscita di emergenza</string>
+
+
     <!--Alemán-->
+    <string name="tituloActividad1Aleman">Willkommen im museum Caja Granada</string>
+    <string name="DescripcionImagenFondoAleman">Bild der fassade des museums</string>
+    <string name="titulo2Actividad1Aleman">Drücken sie zum starten</string>
+    <string name="tituloSelIdiAleman">Wählen sie Ihre sprache</string>
+    <string name="tituloSelMedioAleman">Wählen sie Ihre bevorzugte medium</string>
+    <string name="selecAudioAleman">Audio</string>
+    <string name="selecVideoAleman">Video</string>
+    <string name="selecTextoVideoAleman">Text-Video</string>
+    <string name="tituloSelTipoVisitaAleman">Wählen sie die art des besuchs</string>
+    <string name="selecVisGuiadaAleman">Führung</string>
+    <string name="selecVisLibreAleman">Kostenlosen besuch</string>
+    <string name="selecIrPuntoAleman">Zum punkt von interesse</string>
+    <string name="tituloSelSalaAleman">Wählen sie eingangshalle</string>
+    <string name="selecSala1Aleman">Eingangshalle 1</string>
+    <string name="selecSala2Aleman">Eingangshalle 2</string>
+    <string name="selecSala3Aleman">Eingangshalle 3</string>
+    <string name="selecSala4Aleman">Eingangshalle 4</string>
+    <string name="tituloSelecNumeroAleman">Wählen nummer</string>
+    <string name="selecPuntoOrigenAleman">Wählen sie die quelle</string>
+    <string name="selecPuntoDestinoAleman">Ziel auswählen</string>
+    <string name="selecEntradaSalaAleman">Eingangshalle</string>
+    <string name="selecBañosAleman">Toiletten</string>
+    <string name="selecEntradaSalidaAleman">Input-Output-Museum</string>
+    <string name="selecSalidaEmergenciaAleman">Notausgänge</string>
+
+
+
     <string name="logoMussac">Logo mussac</string>
     <string name="num1">1</string>
     <string name="num2">2</string>

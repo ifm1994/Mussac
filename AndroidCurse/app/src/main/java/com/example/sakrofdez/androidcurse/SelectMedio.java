@@ -19,6 +19,8 @@ public class SelectMedio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_medio);
 
+
+        final Visitante visitante = new Visitante();
         ImageButton botonAtras = (ImageButton) findViewById(R.id.volverAtras);
         Button botonAudio = (Button) findViewById(R.id.selectAudio);
         Button botonVideo = (Button) findViewById(R.id.selectVideo);
@@ -29,14 +31,14 @@ public class SelectMedio extends AppCompatActivity {
 
 
 
-        if(CargandoApp.getCurrentLenguage() == "español"){
-            titulo.setText(R.string.textoSelMedioEspañol);
+        if(visitante.getIdiomaAsignado() == "español"){
+            titulo.setText(R.string.tituloSelMedioEspañol);
             botonAudio.setText(R.string.selecAudioEspañol);
             botonVideo.setText(R.string.selecVideoEspañol);
             botonTextoVideo.setText(R.string.selecTextoVideoEspañol);
         }
-        if(CargandoApp.getCurrentLenguage() == "english"){
-            titulo.setText(R.string.textoSelMedioIngles);
+        if(visitante.getIdiomaAsignado() == "english"){
+            titulo.setText(R.string.tituloSelMedioIngles);
             botonAudio.setText(R.string.selecAudioIngles);
             botonVideo.setText(R.string.selecVideoIngles);
             botonTextoVideo.setText(R.string.selecTextoVideoIngles);
@@ -51,21 +53,21 @@ public class SelectMedio extends AppCompatActivity {
         botonAudio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick( View view){
-                CargandoApp.setMedio("audio");
+                visitante.setMedioPreferido("audio");
                 startActivity(medioATipoVisita);
             }
         });
         botonVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick( View view){
-                CargandoApp.setMedio("video");
+                visitante.setMedioPreferido("video");
                 startActivity(medioATipoVisita);
             }
         });
         botonTextoVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick( View view){
-                CargandoApp.setMedio("textovideo");
+                visitante.setMedioPreferido("textovideo");
                 startActivity(medioATipoVisita);
             }
         });

@@ -22,7 +22,7 @@
         android:id="@+id/botonAtras" />
 
     <TextView
-        android:text="@string/textoSelTipoVisitaEspañol"
+        android:text="@string/tituloSelTipoVisitaEspañol"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:textColor="@color/blanco"

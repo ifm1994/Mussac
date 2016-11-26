@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 public class PantallaInicial extends AppCompatActivity {
 
+    Visitante visitante = new Visitante();
     private Button botomSiguiente;
     private TextView texto1;
     private TextView texto2;
@@ -26,13 +27,13 @@ public class PantallaInicial extends AppCompatActivity {
         texto1 = (TextView) findViewById(R.id.textoPaginaInicial1);
         texto2 = (TextView) findViewById(R.id.textoPaginaInicial2);
 
-        if(CargandoApp.getCurrentLenguage() == "español"){
-            texto1.setText(R.string.textoActividad1Español);
-            texto2.setText(R.string.texto2Actividad1Español);
+        if( visitante.getIdiomaAsignado () == "español"){
+            texto1.setText(R.string.tituloActividad1Español);
+            texto2.setText(R.string.titulo2Actividad1Español);
         }
-        if (CargandoApp.getCurrentLenguage() == "english"){
-            texto1.setText(R.string.textoActividad1Ingles);
-            texto2.setText(R.string.texto2Actividad1Ingles);
+        if (visitante.getIdiomaAsignado() == "english"){
+            texto1.setText(R.string.tituloActividad1Ingles);
+            texto2.setText(R.string.titulo2Actividad1Ingles);
         }
 
         MediaPlayer mp = MediaPlayer.create(this, R.raw.bienvenido);

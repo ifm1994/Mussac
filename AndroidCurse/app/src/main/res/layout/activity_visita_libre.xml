@@ -1,183 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_visita_libre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/principal"
-    tools:context="com.example.sakrofdez.androidcurse.VisitaLibre">
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ir_atras"
-        android:scaleType="centerCrop"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/botonAtras" />
 
-    <RadioButton
-        android:text="@string/num7"
-        android:id="@+id/checkNum7"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_width="165dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
 
-    <RadioButton
-        android:text="@string/num8"
-        android:id="@+id/checkNum8"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_width="165dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ir_atras"
+            android:scaleType="centerCrop"
+            android:id="@+id/botonAtras" />
 
-    <RadioButton
-        android:text="@string/num5"
-        android:id="@+id/checkNum5"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_width="165dp"
-        android:layout_alignBottom="@+id/checkNum6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <TextView
+            android:text="@string/selecPuntoOrigenEspañol"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/blanco"
+            android:id="@+id/textoElegirOrigen"
+            android:gravity="center"
+            android:typeface="sans"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:layout_width="250dp" />
 
-    <RadioButton
-        android:text="@string/num4"
-        android:id="@+id/checkNum4"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_width="165dp"
-        android:layout_above="@+id/checkNum6"
-        android:layout_marginBottom="5dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        <ImageButton
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ir_alante"
+            android:scaleType="centerCrop"
+            android:id="@+id/botonAlante"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp" />
 
-    <RadioButton
-        android:text="@string/num6"
-        android:id="@+id/checkNum6"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_width="165dp"
-        android:layout_marginBottom="5dp"
-        android:layout_above="@+id/checkNum8"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+    </LinearLayout>
 
-    <RadioButton
-        android:text="@string/num2"
-        android:id="@+id/checkNum2"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"
-        android:layout_height="100dp"
-        android:layout_width="165dp"
-        android:layout_above="@+id/checkNum4"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radioGroup">
 
-    <RadioButton
-        android:text="@string/num3"
-        android:id="@+id/checkNum3"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_marginBottom="5dp"
-        android:layout_width="165dp"
-        android:layout_above="@+id/checkNum5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <RadioButton
+                android:text="@string/num1"
+                android:layout_height="110dp"
+                android:id="@+id/radioButton19"
+                android:textColor="@color/blanco"
+                android:background="@color/colorFondoTexto"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="30sp" />
 
-    <RadioButton
-        android:text="@string/num1"
-        android:id="@+id/checkNum1"
-        android:textColor="@color/blanco"
-        android:background="@color/colorFondoTexto"
-        android:textSize="21sp"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_height="100dp"
-        android:layout_marginBottom="5dp"
-        android:layout_width="165dp"
-        android:layout_above="@+id/checkNum4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <RadioButton
+                android:text="@string/num2"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:textColor="@color/blanco"
+                android:background="@color/colorFondoTexto"
+                android:id="@+id/radioButton18"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="30sp" />
 
-    <TextView
-        android:text="@string/textoSelecNumeroEspañol"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textColor="@color/blanco"
-        android:id="@+id/textoSelNumero"
-        android:gravity="center"
-        android:typeface="sans"
-        android:fontFamily="casual"
-        android:textStyle="bold"
-        android:layout_width="250dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/botonAtras"
-        android:layout_toEndOf="@+id/botonAtras" />
+            <RadioButton
+                android:text="@string/num3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:textColor="@color/blanco"
+                android:background="@color/colorFondoTexto"
+                android:id="@+id/radioButton15"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="30sp" />
 
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/ir_alante"
-        android:scaleType="centerCrop"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:id="@+id/botonAlante" />
+            <RadioButton
+                android:text="@string/num4"
+                android:layout_width="match_parent"
+                android:id="@+id/radioButton16"
+                android:textColor="@color/blanco"
+                android:background="@color/colorFondoTexto"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="30sp" />
 
-</RelativeLayout>
+        </RadioGroup>
+
+    </LinearLayout>

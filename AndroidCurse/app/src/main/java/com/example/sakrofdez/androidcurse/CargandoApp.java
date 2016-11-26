@@ -8,31 +8,15 @@ import java.util.Locale;
 
 public class CargandoApp extends AppCompatActivity {
 
-    public static String idiomaAsignado = Locale.getDefault().getDisplayLanguage();
-    public static String medioPreferido = "";
     final Handler handler = new Handler();
-
-
-    public static String getCurrentLenguage() {
-        return idiomaAsignado;
-    }
-
-    public static void setLenguage(String someLenguage) {
-        idiomaAsignado = someLenguage;
-    }
-
-    public static String getMedio(){
-        return medioPreferido;
-    }
-
-    public static void setMedio(String medPreferido){
-        medioPreferido = medPreferido;
-    }
+    Visitante visitante  = new Visitante();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
+
+
 
         handler.postDelayed(new Runnable() {
             @Override

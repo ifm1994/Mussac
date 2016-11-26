@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.ActionProvider;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -26,6 +27,7 @@ public class SeleccionarLenguaje extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_lenguage);
 
+        final Visitante visitante = new Visitante();
         TextView textoSeleccionarIdioma = (TextView) findViewById(R.id.selecIdiom);
         ImageButton botonAtras = (ImageButton) findViewById(R.id.volverAtras);
         ImageButton botonEspañol = (ImageButton) findViewById(R.id.idiomaEspañol);
@@ -35,11 +37,11 @@ public class SeleccionarLenguaje extends Activity {
         ImageButton botonItalia = (ImageButton) findViewById(R.id.idiomaItalia);
         ImageButton botonArabe = (ImageButton) findViewById(R.id.idiomaArabe);
 
-        if (CargandoApp.getCurrentLenguage() == "español") {
-            textoSeleccionarIdioma.setText(R.string.textoSelIdiEspañol);
+        if (visitante.getIdiomaAsignado() == "español") {
+            textoSeleccionarIdioma.setText(R.string.tituloSelMedioEspañol);
         }
-        if (CargandoApp.getCurrentLenguage() == "english") {
-            textoSeleccionarIdioma.setText(R.string.textoSelIdiIngles);
+        if (visitante.getIdiomaAsignado() == "english") {
+            textoSeleccionarIdioma.setText(R.string.tituloSelMedioIngles);
         }
 
         botonAtras.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +55,7 @@ public class SeleccionarLenguaje extends Activity {
             @Override
             public void onClick(View view) {
                 Intent lenguajeAMedio = new Intent(SeleccionarLenguaje.this, SelectMedio.class);
-                CargandoApp.setLenguage("español");
+                visitante.setIdiomaAsignado("español");
                 startActivity(lenguajeAMedio);
             }
         });
@@ -61,7 +63,7 @@ public class SeleccionarLenguaje extends Activity {
             @Override
             public void onClick(View view) {
                 Intent lenguajeAMedio = new Intent(SeleccionarLenguaje.this, SelectMedio.class);
-                CargandoApp.setLenguage("english");
+                visitante.setIdiomaAsignado("english");
                 startActivity(lenguajeAMedio);
             }
         });
@@ -69,7 +71,7 @@ public class SeleccionarLenguaje extends Activity {
             @Override
             public void onClick(View view) {
                 Intent lenguajeAMedio = new Intent(SeleccionarLenguaje.this, SelectMedio.class);
-                CargandoApp.setLenguage("français");
+                visitante.setIdiomaAsignado("français");
                 startActivity(lenguajeAMedio);
             }
         });
@@ -77,7 +79,7 @@ public class SeleccionarLenguaje extends Activity {
             @Override
             public void onClick(View view) {
                 Intent lenguajeAMedio = new Intent(SeleccionarLenguaje.this, SelectMedio.class);
-                CargandoApp.setLenguage("italiano");
+                visitante.setIdiomaAsignado("italiano");
                 startActivity(lenguajeAMedio);
             }
         });
@@ -85,7 +87,7 @@ public class SeleccionarLenguaje extends Activity {
             @Override
             public void onClick(View view) {
                 Intent lenguajeAMedio = new Intent(SeleccionarLenguaje.this, SelectMedio.class);
-                CargandoApp.setLenguage("العربي");
+                visitante.setIdiomaAsignado("العربي");
                 startActivity(lenguajeAMedio);
             }
         });
@@ -93,7 +95,7 @@ public class SeleccionarLenguaje extends Activity {
             @Override
             public void onClick(View view) {
                 Intent lenguajeAMedio = new Intent(SeleccionarLenguaje.this, SelectMedio.class);
-                CargandoApp.setLenguage("deutsch");
+                visitante.setIdiomaAsignado("deutsch");
                 startActivity(lenguajeAMedio);
             }
         });
